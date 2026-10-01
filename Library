@@ -193,7 +193,7 @@ local Library do
             ["Section Top"] = FromRGB(28, 27, 31),       -- Dark section header
             ["Section Background"] = FromRGB(10, 10, 12),-- Deep black section background
             ["Section Background 2"] = FromRGB(14, 14, 16),-- Alternate section, minimal difference
-            ["Accent"] = FromRGB(0, 255, 0, 0),           -- Darker blue accent for consistency
+            ["Accent"] = FromRGB(255, 0, 0),           -- Darker blue accent for consistency
             ["Element"] = FromRGB(16, 16, 18)            -- Deep gray for UI elements
         }
     }
@@ -1330,7 +1330,7 @@ local Library do
                 Instances:Create("UIGradient", {
                     Parent = Items["HueInline"].Instance,
                     Name = "\0",
-                    Color = RGBSequence{RGBSequenceKeypoint(0, FromRGB(255, 0, 0)), RGBSequenceKeypoint(0.17, FromRGB(255, 255, 0)), RGBSequenceKeypoint(0.33, FromRGB(0, 255, 0)), RGBSequenceKeypoint(0.5, FromRGB(0, 255, 255)), RGBSequenceKeypoint(0.67, FromRGB(0, 0, 255)), RGBSequenceKeypoint(0.83, FromRGB(255, 0, 255)), RGBSequenceKeypoint(1, FromRGB(255, 0, 0))}
+                    Color = RGBSequence{RGBSequenceKeypoint(0, FromRGB(255, 0, 0))), RGBSequenceKeypoint(0.17, FromRGB(255, 255, 0)), RGBSequenceKeypoint(0.33, FromRGB(0, 255, 0)), RGBSequenceKeypoint(0.5, FromRGB(0, 255, 255)), RGBSequenceKeypoint(0.67, FromRGB(0, 0, 255)), RGBSequenceKeypoint(0.83, FromRGB(255, 0, 255)), RGBSequenceKeypoint(1, FromRGB(255, 0, 0)))}
                 })
                 
                 Items["HueDragger"] = Instances:Create("Frame", {
@@ -1808,11 +1808,11 @@ local Library do
                 ["Orange 2"] = FromRGB(255, 93, 48),
                 ["Orange 3"] = FromRGB(255, 169, 56),   
                 ["Green"] = FromRGB(0, 171, 0),
-                ["Blue"] = FromRGB(0, 255, 0, 0),
+                ["Blue"] = FromRGB(255, 0, 0),
                 ["Maroon"] = FromRGB(120, 0, 76),
                 ["Whiteish Pink"] = FromRGB(255, 194, 245),         
                 ["White"] = FromRGB(255, 255, 255),
-                ["Red"] = FromRGB(255, 0, 0),
+                ["Red"] = FromRGB(255, 0, 0)),
                 ["Sky Blue"] = FromRGB(171, 209, 255),
             }
 
